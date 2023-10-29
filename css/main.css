@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Edu+TAS+Beginner&family=Oswald:wght@200&family=Roboto&family=Sarala&display=swap');
+
+/*
+Public style
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clr {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    font-size: 27px;
+    font-weight: 51;
+    font-style: italic;
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Navigation bar*/
+.navbar {
+    background-color: black;
+}
+
+.logo {
+    float: left;
+    margin-top: 7px;
+}
+
+.logo img {
+    width: 50%;
+}
+
+.navbar .list {
+    float: right;
+}
+
+.navbar .list ul {
+    list-style-type: none;
+}
+
+.navbar .list ul li {
+    float: left;
+    margin-right: 16px;
+    padding-top: 5px;
+}
+
+.navbar .list a {
+    color: white;
+    text-transform: uppercase;
+}
+
+.portfolio {
+    background-color: cornsilk;
+    text-align: center;
+
+}
+
+.portfolio-items {
+    float: left;
+    width: 33.33%;
+    padding-right: 27px;
+
+}
+
+.portfolio img {
+    display: block;
+    width: 100%;
+}
+
+.portfolio .container p {
+    padding-top: 15px;
+    font-size: large;
+    font-stretch: semi-condensed;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 999;
+}
